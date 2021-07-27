@@ -1,0 +1,35 @@
+@import "../../sass/mixins.scss";
+
+.Buttons {
+  @include container;
+  @include flex(column, space-evenly, center);
+}
+
+.Buttons h2 {
+  padding: 10px 0 30px;
+}
+
+.Buttons button {
+  padding: 8px 12px;
+  margin: 0 10px;
+  border: none;
+  background-color: darkmagenta;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+  text-shadow: 0 0 2px black;
+  border: 2px solid transparent;
+}
+
+.Buttons button:hover {
+  border-color: black;
+  background-color: #fff;
+  color: black;
+  text-shadow: none;
+}
+
+.Buttons button:active {
+  transform: scale(0.95);
+}

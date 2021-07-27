@@ -1,0 +1,16 @@
+@import "../sass/mixins.scss";
+
+$bgcColor: crimson;
+$textColor: #fff;
+
+.Header {
+  height: 120px;
+  background-color: $bgcColor;
+  @include flex(row, center, center);
+}
+
+.Header h1 {
+  color: $textColor;
+  letter-spacing: 1.5px;
+  text-shadow: 0 0 2px #000;
+}

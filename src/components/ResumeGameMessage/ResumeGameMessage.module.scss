@@ -1,0 +1,29 @@
+@import "../../sass/mixins.scss";
+
+.ResumeGameMessage section {
+  background-color: #fff;
+  padding: 15px 10px;
+  text-align: center;
+}
+.ResumeGameMessage section p {
+  background-color: crimson;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.ResumeGameMessage button {
+  border: none;
+
+  background-color: #000;
+  border-radius: 2px;
+  padding: 6px 12px;
+  color: white;
+  text-shadow: 0 0 2px black;
+  margin: 10px 5px;
+  width: 100px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.Modal button:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,26 @@
+@import "../../sass/mixins.scss";
+.GameHistory {
+  @include container;
+  @include flex(column, flex-start, center);
+}
+.GameHistory h2 {
+  padding: 5px 0 20px;
+}
+.GameHistory ul {
+  list-style-type: none;
+  width: 100%;
+  @include flex(column, flex-start, center);
+}
+.GameHistory li {
+  background-color: black;
+  border-radius: 2px;
+  padding: 8px;
+  color: white;
+  width: 70%;
+  margin: 5px 0;
+  @include flex(row, space-between, center);
+}
+.GameHistory span {
+  font-weight: 700;
+  color: red;
+}

@@ -1,0 +1,8 @@
+@import "../../sass/mixins.scss";
+.GameInfo {
+  @include container;
+}
+
+.GameInfo span {
+  font-weight: 700;
+}

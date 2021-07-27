@@ -1,0 +1,8 @@
+@import "../../sass/mixins.scss";
+.Dice {
+  @include container;
+  @include flex(row, center, center);
+}
+.Dice img {
+  width: 80px;
+}
