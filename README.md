@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# RollDiceGame
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo
 
-## Available Scripts
+![RollDiceGame preview](./src/assets/rolldicegame.jpg)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [About the Project](#description)
+- [How to use](#how-to-use)
+- [Technologies used](#built-with)
+- [Setup steps](#setup)
+- [Sources](#sources)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Description
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+RollDiceGame uses dicefullApi to get images of the dices and updates its value. You need to guess if the next number on the dice will be lower of higher. There is also a game history saving all rounds. The data is stored in local storage so if you wish to close it and then finish it will ask you to load the previous game if you wish so.
 
-### `npm test`
+## How to use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Choose one of two buttons and press them in order to guess the dice number.
 
-### `npm run build`
+## Built with
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- HTML5
+- SCSS
+- React
+- TypeScript
+- Axios
+- Dicefull Api
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+with BASH
 
-### `npm run eject`
+# clone the remote repo to your local one
+$ git clone https://github.com/dominiksiejka/RollDiceGame.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# open the index.html file or use your code editor to open it with live server
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Sources
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Icons from [Font Awesome ](https://fontawesome.com)
+- Font from [Google Fonts ](https://fonts.google.com/)
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- MIT © [Dominik Siejka ](https://github.com/dominiksiejka/RollDiceGame)
